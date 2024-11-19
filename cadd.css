@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+header {
+    height: 110px;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    z-index: 10;
+}
+
+
+nav {
+
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+
+}
+
+nav a {
+    margin: 10px;
+    font-size: x-large;
+    position: relative;
+    bottom: 80px;
+    text-decoration: none;
+    
+    
+}
+
+ nav a:hover {
+    color: red;
+}
+.size{
+    height:90vh ;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.banner  > img{
+   height: 500px;
+   width: 100vw;
+   background-size: cover;
+   position: relative;
+   top: 150px;
+   display: block;
+   
+
+}
+.banner :nth-child(2){
+    display: none;
+}
+
+.head-1 {
+    position: absolute;
+    left: 180px;
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+.head-2 {
+    position: absolute;
+    left: 180px;
+    position: absolute;
+    top: 280px;
+    font-size: 45px;
+    color: rgb(64, 62, 62);
+}
+
+.head-3 {
+    position: absolute;
+    left: 180px;
+    position: absolute;
+    top: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+.head-4 {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   font-size: 45px;
+}
+.head-5 > h1{
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.btn-1 {
+    position: absolute;
+    left: 170px;
+    position: absolute;
+    top: 500px;
+    font-size: x-large;
+    padding: 20px;
+    background-color: rgb(88, 88, 216);
+    color: white;
+    border-radius: 15px;
+    text-transform: capitalize;
+
+}
+
+marquee {
+    top: 10px;
+    font-size: x-large;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.btn-2 {
+    padding: 5px;
+    background-color: blue;
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    display: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 60px;
+    word-wrap: break-word;
+}
+
+.program {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.program div {
+    height: 300px;
+    width: 370px;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;  
+}
+.program div:hover{
+    height: 330px;
+    width:400px ;
+    background-color: rgb(238, 234, 234);
+}
+
+.div > img{
+    height: 50px;
+    width: 50px;
+    margin-top:20px;
+    
+}
+.div > h1{
+    margin-left: 15px;
+    height: 100px;
+    width: 290px;
+    display:inline-block;
+    flex-wrap: wrap;
+}
+.div > p{
+    margin-left:68px;
+    line-height: 25px;
+    height: 220px;
+    width: 290px;
+    display:inline-block;
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.banner-2{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100px; */
+    width: 90%;
+    margin: 40px
+}
+.banner-2 > .image >img{
+  margin: 90px;
+  position: relative;
+  bottom: 80px; 
+  left: 40px;
+}
+.banner-3{
+    /* height: 600px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+}
+.banner-3 > img{
+    
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(34, 34, 99);
+    margin-top: 10px;
+
+}
+.box > p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size:40px;
+    margin-left:90px;
+    position: relative;
+    top: 35px;
+    color: rgb(248, 247, 247);
+    
+}
+.box-1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 45px;
+    border: 5px solid black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: x-large;
+   margin-left: 290px;
+   margin-top: 40px;
+   display: block;
+}
+
+.box > .box-1:hover{
+    background-color: aliceblue;
+}
+
+
+ .program-1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(75, 68, 68);
+ }
+ .program-1 > div{
+   
+    height: 330px;
+    width: 350px;
+    margin: 15px;
+ }
+.program-1 .footer-1 img{
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+}
+.program-1 .footer-1 h3{
+    margin-bottom: 80px;
+    justify-content: flex-start;
+    color: rgb(11, 11, 11);
+    margin-left: 30px;
+}
+.program-1 .footer-1 p{
+    margin-bottom: 20px;
+    line-height: 30px;
+    color:white;
+    margin-left: 30px;
+}
+.footer-2 h3{
+    margin-top: 50px;
+    color: rgb(12, 12, 12);
+}
+.footer-2 a{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 110px;
+    text-decoration: none;
+}
+.footer-3 h3{
+    margin-top: 50px;
+    color: rgb(16, 16, 16);
+}
+.footer-3 a{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 110px;
+    text-decoration: none;
+}
+.footer-4 h3{
+    margin-top: 50px;
+    color: rgb(31, 30, 30);
+
+}
+.footer-4 a{
+    display: flex;
+    margin-left: 110px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1230px) {
+    nav {
+        position: relative;
+        top: 70px;
+    }
+
+}
+
+@media screen and (max-width:770px) {
+    nav {
+        display: none;
+    }
+
+    .btn-2 {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+    .banner > img{
+        display: none;
+    }
+    .banner > :nth-child(2){
+        display: block;
+    }
+   
+    
+}
+@media screen and (max-width:750px) {
+    .box-1{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1400px) {
+    .program-1{
+        height: 100%;
+        background-color: rgb(86, 77, 77);
+    }
+    
+}
